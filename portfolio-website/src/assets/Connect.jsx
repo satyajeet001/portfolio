@@ -30,7 +30,7 @@ function ConnectForm() {
     e.preventDefault();
     console.log(formData);
     try {
-      const response = await fetch(`https://satyajeet-api.vercel.app/contact`, {
+      const response = await fetch(`https://satyajeet-api.vercel.app`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
