@@ -7,7 +7,7 @@ const app = express();
 
 const corsOptions = {
   origin: [
-    "https://satyajeet-das.vercel.app/",
+    "https://satyajeet-das.vercel.app",
     "https://satyajeet-das.vercel.app/",
     "https://satyajeet-das.vercel.app/#home",
     "https://satyajeet-das.vercel.app/#skills",
