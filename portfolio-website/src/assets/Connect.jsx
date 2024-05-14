@@ -30,7 +30,7 @@ function ConnectForm() {
     e.preventDefault();
     console.log(formData);
     try {
-      const response = await fetch(`https://portfolio-api-kappa-two.vercel.app`, {
+      const response = await fetch(`https://portfolio-api-kappa-two.vercel.app/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
