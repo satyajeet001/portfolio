@@ -7,12 +7,9 @@ const app = express();
 
 const corsOptions = {
   origin: [
-    "https://satyajeet-das.vercel.app/",
+   
     "https://satyajeet-das.vercel.app",
-    "https://satyajeet-das.vercel.app/#home",
-    "https://satyajeet-das.vercel.app/#skills",
-    "https://satyajeet-das.vercel.app/#projects",
-    "https://satyajeet-das.vercel.app/#connect",
+    
   ],
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
